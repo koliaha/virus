@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="ad.size" content="width=320,height=480">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./scripts/jquery.ui.touch-punch.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <div id="Stage">
+    <section class="sec-main sec-first " id="firstsec">
+        <div class="main-left">
+            <img class="main-virus" src="./img/logo.png" alt="logo">
+            <div class="title">защити свой <br /> организм <br />
+                от вирусов</div>
+        </div>
+        <div class="main-right">
+            <img src="./img/virus.png" alt="virus">
+            <button class="main-link" id="beginClick">начать</button>
+        </div>
+         <p class="sub-title sub-second">Реклама: ООО «Завод Медсинтез» РУ ЛП 002604 от 07.02.2022</p>
+    </section>
+    <section class="sec-main second-sec" id="secondsec">
+        <div class="header">
+            <img src="./img/virus.png" alt="virus">
+        </div>
+        <div class="elemvirus first" id="firstvirus">
+            <img class="open" src="./img/elemvirus.png" alt="elemvirus">
+            <img class="close" src="./img/elemvirus2.png" alt="elemvirus">
+        </div>
+        <div class="elemvirus second" id="secondvirus">
+            <img class="open" src="./img/elemvirus.png" alt="elemvirus">
+            <img class="close" src="./img/elemvirus2.png" alt="elemvirus">
+        </div>
+        <div class="elemvirus third" id="thirdvirus">
+            <img class="open" src="./img/elemvirus.png" alt="elemvirus">
+            <img class="close" src="./img/elemvirus2.png" alt="elemvirus">
+        </div>
+        <div class="tablet" id="draggable">
+            <div class="arrow arrow-left">
+                <svg width="27" height="8" viewBox="0 0 27 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.6597 4.00556C26.849 3.81628 26.849 3.5094 26.6597 3.32012L23.5753 0.235652C23.386 0.0463736 23.0791 0.0463736 22.8898 0.235652C22.7005 0.424931 22.7005 0.731812 22.8898 0.92109L25.6316 3.66284L22.8898 6.40459C22.7005 6.59387 22.7005 6.90075 22.8898 7.09003C23.0791 7.27931 23.386 7.27931 23.5753 7.09003L26.6597 4.00556ZM26.317 3.17816L0.629091 3.17816V4.14752L26.317 4.14752V3.17816Z"
+                        fill="#006282" />
+                </svg>
+            </div>
+            <img src="./img/tablet.png" alt="tablet">
+            <div class="arrow arrow-right">
+                <svg width="27" height="8" viewBox="0 0 27 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.6597 4.00556C26.849 3.81628 26.849 3.5094 26.6597 3.32012L23.5753 0.235652C23.386 0.0463736 23.0791 0.0463736 22.8898 0.235652C22.7005 0.424931 22.7005 0.731812 22.8898 0.92109L25.6316 3.66284L22.8898 6.40459C22.7005 6.59387 22.7005 6.90075 22.8898 7.09003C23.0791 7.27931 23.386 7.27931 23.5753 7.09003L26.6597 4.00556ZM26.317 3.17816L0.629091 3.17816V4.14752L26.317 4.14752V3.17816Z"
+                        fill="#006282" />
+                </svg>
+            </div>
+        </div>
+         <p class="sub-title sub-second">Реклама: ООО «Завод Медсинтез» РУ ЛП 002604 от 07.02.2022</p>
+    </section>
+    <section class="sec-main sec-third" id="thirdsec">
+        <div class="main-right">
+            <img class="hand-virus" src="./img/hand.png" alt="virus">
+        </div>
+        <div class="main-left">
+            <img src="./img/logo.png" alt="logo">
+            <div class="title third-title">Триазавирин помог тебе защититься от вирусов</div>
+        </div>
+        <p class="sub-title sub-first">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМО <br/> ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ</p>
+        <p class="sub-title sub-second">Реклама: ООО «Завод Медсинтез» РУ ЛП 002604 от 07.02.2022</p>
+    </section>
+    <section class="sec-main sec-forth" id="forthsec">
+        <div class="main-right">
+        </div>
+        <div class="main-left">
+            <img src="./img/logo.png" alt="logo">
+            <div class="title third-title">ПРИ ГРИППЕ 
+                И ОРВИ</div>
+                <button class="main-link ">купить</button>
+        </div>
+        <p class="sub-title sub-first">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМО ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ</p>
+        <p class="sub-title sub-second">Реклама: ООО «Завод Медсинтез» РУ ЛП 002604 от 07.02.2022</p>
+    </section>
+</div>
+    <script src="./scripts/script.js"></script>
+    <script>
+        $(function () {
+            $("#draggable").draggable();
+        });
+    </script>
+ 
+</body>
+
+</html>
